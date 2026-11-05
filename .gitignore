@@ -1,0 +1,23 @@
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.bak
+*~
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating system files
+.DS_Store
+Thumbs.db
